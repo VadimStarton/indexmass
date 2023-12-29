@@ -1,0 +1,12 @@
+{
+  "name": "indexmass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=4615",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim (https://github.com/VadimStaron)",
+  "license": "ISC"
+}

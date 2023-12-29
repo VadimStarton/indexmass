@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./script.js"> </script>
+    <title>KMI</title>
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+            <header> KMI skaičiuotuvas </header>
+        </div>
+        <form class="conteiners">        
+            <label for='Ūgis'>Ūgis (cm)</label>       
+            <div class="input1">                
+                <input type="number" id="Ūgis" min="0"  step="1.0" max="300"value="0">
+            </div>
+            
+            <label for='Svoris'>Svoris (kg)</label>
+            <div class="input2">                
+                <input type="number" id="Svoris" min="0"  step="0.10" max="500" value="0">
+            </div>
+        </form>    
+        <div class = "buttons_conteiner">
+            <button class="btn1"> Ištrinti </button>
+            <button class="btn2"> Skaičiuoti </button>
+        </div>                    
+        
+        <section class="output">
+            <span> Jūsų KMI rezultatas </span>
+            <p id="kmi">0</p>
+            <p id="desc">N/D</p>
+        </section>
+        <section  class="kmi_scale">
+            <div>
+                <h1> Masės trūkumas 
+                    <br>&lt;18.5</br>
+                </h1>
+                <h2> Normalus  
+                    <br>18.5 - 24.9</br>
+                </h2>
+                <h3> Viršsvoris 
+                    <br>25 - 29.9 </br>
+                </h3>
+                <h4> Nutukimas
+                    <br>&gt30 </br>
+                </h4>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+
+    </div>    
+    
+</body>
+</html>
